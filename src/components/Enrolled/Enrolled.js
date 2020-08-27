@@ -12,8 +12,8 @@ const Enrolled = (props) => {
   const total = cart.reduce((total, courseFee) => total+Number(courseFee.price), 0);
 
   return (
-    <div>
-      <h4>Coursed you have added</h4>
+    <div className='container mt-5 sticky-top'>
+      <h4 className='text-center'>Your purchased courses</h4>
       <h5>Added Course: {cart.length}</h5>
       <h5 className=''>Total: ${total.toFixed(2)} </h5>
       <ol>

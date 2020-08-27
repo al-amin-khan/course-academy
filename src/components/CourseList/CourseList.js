@@ -17,10 +17,10 @@ const CourseList = () => {
     // console.log(newCart);
   }
   return (
-    <div>
-      <div className='container'>
+    <div className='container'>
+      <div className='mt-5'>
         <div className='row'>
-          <div className='col-md-8'>
+          <div className='col-md-8 border-right'>
             <h2 className='text-center'>Courses</h2>
             <ul>
               {
